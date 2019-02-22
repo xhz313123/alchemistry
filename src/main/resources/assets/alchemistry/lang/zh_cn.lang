@@ -3,6 +3,7 @@ tile.chemical_dissolver.name=化学溶解机
 tile.chemical_combiner.name=化学化合机
 tile.evaporator.name=蒸发机
 tile.atomizer.name=雾化器
+tile.liquifier.name=液化器
 
 item.alchemistry:mineral_salt.name=岩盐
 item.alchemistry:fertilizer.name=肥料
@@ -118,6 +119,7 @@ item.alchemistry:element_bohrium.name=𬭛
 item.alchemistry:element_hassium.name=𬭶
 item.alchemistry:element_meitnerium.name=鿏
 
+
 item.alchemistry:compound_cellulose.name=纤维素
 item.alchemistry:compound_aluminum_oxide.name=氧化铝
 item.alchemistry:compound_magnesium_oxide.name=氧化镁
@@ -152,16 +154,26 @@ item.alchemistry:compound_diammonium_phosphate.name=磷酸氢二铵
 item.alchemistry:compound_amide.name=酰胺
 item.alchemistry:compound_ethanol.name=乙醇
 item.alchemistry:compound_potassium_carbonate.name=碳酸钾
+item.alchemistry:compound_mescaline.name=Mescaline
+item.alchemistry:compound_mullite.name=Mullite
+
+
 
 jei.combiner.name=化学化合机
 jei.dissolver.name=化学溶解机
 jei.electrolyzer.name=电解机
 jei.evaporator.name=蒸发机
 jei.atomizer.name=雾化器
+jei.liquifier.name=液化
 
 itemGroup.alchemistry=Alchemistry
 
 item.alchemistry:fertilizer.tooltip=可以当做骨粉使用
+tile.electrolyzer.tooltip=需要
+tile.chemical_dissolver.tooltip=需要
+tile.chemical_combiner.tooltip=需要
+tile.atomizer.tooltip=需要
+tile.liquifier.tooltip=需要
 tile.evaporator.tooltip=在非干燥环境中速度减缓50%
 
 tile.combiner.unlock_recipe=解锁配方
